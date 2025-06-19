@@ -1,0 +1,22 @@
+{
+  "name": "localagent-printer",
+  "version": "1.0.0",
+  "description": "for connect local printer",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch index.js"
+  },
+  "author": "muhismail015",
+  "license": "ISC",
+  "dependencies": {
+    "@node-escpos/core": "^0.6.0",
+    "@node-escpos/usb-adapter": "^0.3.1",
+    "axios": "^1.9.0",
+    "express": "^5.1.0",
+    "i": "^0.3.7",
+    "npm": "^11.4.1",
+    "sharp": "^0.34.2"
+  }
+}
